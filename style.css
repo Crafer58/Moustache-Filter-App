@@ -1,0 +1,28 @@
+#heading{
+    font-size: 25px;
+}
+#snapshot:hover{
+    background-color: red;
+}
+
+canvas{
+margin-top:50px;
+animation-name:example;
+animation-duration:2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+    0%   {box-shadow:10px 10px 50px red;}
+    10%  {box-shadow:10px 10px 50px yellow;}
+    20%  {box-shadow:10px 10px 50px orange;}
+    30% {box-shadow:10px 10px 50px pink;}
+    40% {box-shadow:10px 10px 50px orchid;}
+    50%  {box-shadow:10px 10px 50px orchid;}
+    60%  {box-shadow:10px 10px 50px pink;}
+    70%  {box-shadow:10px 10px 50px orange;}
+    80% {box-shadow:10px 10px 50px yellow;}
+    90% {box-shadow:10px 10px 50px red;}
+    100%   {box-shadow:10px 10px 50px red;}
+}
